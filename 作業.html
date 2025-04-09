@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>這是我蕭煒翰的作業</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: radial-gradient(circle at center, #8118d6, #6513d1, #910aa3);
+        }
+        
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1000px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+        }
+        
+        .text-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 30px;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="my_prefix_1741034727.webp" alt="左側去背圖片">
+        </div>
+        
+        <div class="text-container">
+            <h1>圖片展示</h1>
+            <h2>遐蝶诶嘿嘿</h2>
+        </div>
+        
+        <div class="image-container">
+            <img src="640.jpeg" alt="右側去背圖片">
+        </div>
+    </div>
+</body>
+</html>
